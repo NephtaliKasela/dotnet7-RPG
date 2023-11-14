@@ -1,3 +1,4 @@
+using dotnet_RPG.DTOs.Weapon;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,5 +16,7 @@ namespace dotnet_RPG.Models
         public int Intelligence { get; set; }
         public RpgClass Class { get; set; } = RpgClass.Knigth;
         public User? Users { get; set; }
+        public Weapon? Weapon { get; set; }
+        public List<Skill>? Skills { get; set; }
     }
 }
